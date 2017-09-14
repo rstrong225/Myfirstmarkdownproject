@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"MY markdown assignment\"\nauthor: \"Ryan Strong\"\ndate: \"9/7/2017\"\noutput:\n  pdf_document: default\n  html_document: default\n  Abstract: This is the abstract of my document it contains the secret code for writting\n---\n\n```{r setup, include=FALSE}\nknitr::opts_chunk$set(echo = TRUE)\n```\n# Only one hashtag\n## Two hashtag\n### Three Hashy\n\n* Point 1 made\n* Point 2 made\n* Point 3 made\n\nSorry those were not numbered. lEts Number\n\n\n\n\nNow that i know my basics let me program \n\n### Iris dataset\n\nLet us look at the names of the variables in the data set\n\n```{r}\ndf=(iris)\n\nnames(df)\n```\n\nThis line is going to tell me a summaryof those variables\n\n```{r}\nsummary(df)\n```\n\nFinally a plot\n\n```{r}\nplot(df[,1])\n```\n\nWas that awesome ore what?\n\n",
+    "created" : 1504814083557.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2776536106",
+    "id" : "853A1497",
+    "lastKnownWriteTime" : 1505417650,
+    "last_content_update" : 1505417650572,
+    "path" : "~/Desktop/Data Visualization/My first markdown project/Markdown project.Rmd",
+    "project_path" : "Markdown project.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

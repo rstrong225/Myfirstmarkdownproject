@@ -1,0 +1,52 @@
+---
+title: "MY markdown assignment"
+author: "Ryan Strong"
+date: "9/7/2017"
+output:
+  pdf_document: default
+  html_document: default
+  Abstract: This is the abstract of my document it contains the secret code for writting
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Only one hashtag
+## Two hashtag
+### Three Hashy
+
+* Point 1 made
+* Point 2 made
+* Point 3 made
+
+Sorry those were not numbered. lEts Number
+
+
+
+
+Now that i know my basics let me program 
+
+### Iris dataset
+
+Let us look at the names of the variables in the data set
+
+```{r}
+df=(iris)
+
+names(df)
+```
+
+This line is going to tell me a summaryof those variables
+
+```{r}
+summary(df)
+```
+
+Finally a plot
+
+```{r}
+plot(df[,1])
+```
+
+Was that awesome ore what?
+

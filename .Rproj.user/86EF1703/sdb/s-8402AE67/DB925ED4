@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# the following line lists the variables\nnames(iris)\nsummary(iris)# the following line produces the summary \nplot(iris$Sepal.Length)# and the plot\n\n\n",
+    "created" : 1504813341554.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2918812518",
+    "id" : "DB925ED4",
+    "lastKnownWriteTime" : 1504813698,
+    "last_content_update" : 1504813698159,
+    "path" : "~/Desktop/Data Visualization/My first markdown project/my first lines.R",
+    "project_path" : "my first lines.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
